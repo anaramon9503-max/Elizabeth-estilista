@@ -1,1 +1,0 @@
-document.querySelectorAll('.service').forEach((item)=>{item.addEventListener('toggle',()=>{if(!item.open)return;document.querySelectorAll('.service').forEach((other)=>{if(other!==item)other.open=false;});});});
